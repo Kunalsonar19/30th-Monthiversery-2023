@@ -54,8 +54,8 @@
 					forward to many more months, years, and decades of love, laughter, and togetherness with you. Happy
 					30 months, my love!
 				</p>
-				<p class="text-right">Forever yours,</p>
-				<p class="text-right">Duffer 🐼</p>
+				<p class="text-right" style="margin-top: 0 !important;">Forever yours,</p>
+				<p class="text-right" style="margin-top: 0 !important;margin-bottom: 0 !important;">Duffer 🐼</p>
 				<p class="text-right">1.Sep.2023</p>
 				<!-- <p class="mt-2">
 					<button onclick="loadComments()" style="font-size: 1rem; font-weight: semibold;">&gt; 点击查看朋友们的祝福
@@ -89,8 +89,9 @@
 		<div data-depth="0.1">
 			<div class="layer">
 				<div class="absolute left-0 w-screen flex justify-center items-center" id="copyright"
-					style="bottom: -120px;">
-					<div class="mb-8 opacity-100 text-white" style="font-size: 20px;font-family: poppins;">
+					style="bottom: -150px;">
+					<div class="mb-8 opacity-100 text-white" style="font-size: 20px;font-family: poppins;position: absolute;
+					bottom: 30px;">
 						Made With ❤️ By Duffer<br />
 					</div>
 				</div>
@@ -144,7 +145,7 @@
 				setTimeout(() => {
 					$("#words").show(0, function () {
 						$("#words").animate({
-							'max-height': '95%'
+							'max-height': '90%'
 						}, 2400, function () {
 							resolve('done');
 						});
